@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  .nav-container,
+  .navbar-brand,
+  .navbar-collapse,
+  .navbar-nav,
+  .nav-link {
+    background-color: #ffffff !important;
+  }
+  .collapse {
+    .navbar-nav {
+      .nav-item {
+        .active {
+          border-bottom: 2px solid red;
+        }
+      }
+    }
+  }
+}
+
+.hero-section {
+  height: 100vh;
+}
+
+.card {
+  // width: 415px !important;
+  .card-body {
+    img {
+      height: 370px;
+      width: 415px;
+      object-fit: cover;
+    }
+  }
+}
+
+.card-row {
+  background-color: red;
+}

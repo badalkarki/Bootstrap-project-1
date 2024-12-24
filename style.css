@@ -1,0 +1,31 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.navbar .nav-container,
+.navbar .navbar-brand,
+.navbar .navbar-collapse,
+.navbar .navbar-nav,
+.navbar .nav-link {
+  background-color: #ffffff !important;
+}
+.navbar .collapse .navbar-nav .nav-item .active {
+  border-bottom: 2px solid red;
+}
+
+.hero-section {
+  height: 100vh;
+}
+
+.card .card-body img {
+  height: 370px;
+  width: 415px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-row {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
